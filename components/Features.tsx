@@ -33,7 +33,6 @@ const Features = () => {
               <FeatureItem 
                 title={feature.title}
                 key={feature.title}
-                variant={feature.variant}
                 description={feature.description}
                 icon={feature.icon}
               />
